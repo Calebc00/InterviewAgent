@@ -1,0 +1,19 @@
+{
+  "chatbot": {
+    "name": "Interview Agent",
+    "description": "A basic chatbot using GPT-4-latest with conversational memory and no tools.",
+    "version": "0.1.0",
+    "image": "image.webp",
+    "location": "http://host.docker.internal:8080",
+    "type": "copilot",
+    "params": {
+      "agent": "conversational_agent",
+      "operation": "converse",
+      "inputLabel": "Upload your resume and paste the description of the job you are applying for",
+      "titleOperationName": null,
+      "allowSpeech": true,
+      "speechAgent": "SpeechAgent",
+      "speechOperation": "speech_to_text"
+    }
+  }
+}
